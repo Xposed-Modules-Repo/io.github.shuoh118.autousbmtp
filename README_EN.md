@@ -30,12 +30,9 @@ Changes are written immediately and take effect the next time you plug in the ca
 
 ## Changelog
 
-### 1.1
+### v1.2
 - Improved the hook installation flow
 - Fixed USB mode not taking effect after plugging in on some devices
-
-### 1.0
-- Initial release
 
 ## Notes
 
