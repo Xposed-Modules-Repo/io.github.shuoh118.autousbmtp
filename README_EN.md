@@ -7,7 +7,7 @@ Xposed/LSPosed module: Automatically switches the USB connection mode to MTP aft
 ## Function
 
 - Automatically switches from USB mode to MTP after the data cable is plugged in.
-- Hook `UsbDeviceManager`、`AdbService`It takes effect at the system_server layer.
+- Hook,`UsbDeviceManager`AdbService`It takes effect at the system_server layer.
 
 ## Environmental requirements
 
