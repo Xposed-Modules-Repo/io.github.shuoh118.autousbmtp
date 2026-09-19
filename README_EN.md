@@ -2,7 +2,7 @@
 
 Xposed/LSPosed module: Automatically switches the USB connection mode to MTP after plugging in the cable, eliminating the need to manually pull down the notification bar and select it each time.
 -----
-[English](README_EN.md)
+[中文](README.md)
 
 ## Function
 
