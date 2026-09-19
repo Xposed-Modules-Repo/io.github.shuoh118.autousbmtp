@@ -8,7 +8,6 @@ An Xposed/LSPosed module: automatically switches the USB connection mode to MTP 
 
 - Automatically switches the USB mode to MTP when a data cable is connected
 - Hooks `UsbDeviceManager` and `AdbService`, taking effect at the system_server layer
-- Mode switching happens instantly, no device reboot required
 
 ## Requirements
 
@@ -34,17 +33,13 @@ Changes are written immediately and take effect the next time you plug in the ca
 - Improved the hook installation flow
 - Fixed USB mode not taking effect after plugging in on some devices
 
-## Notes
-
-This module is based on the open-source project USBManager, with the package name and app name adjusted to comply with the submission requirements of the official LSPosed repository. The functional logic is consistent with upstream.
-
 ## License
 
 This project is licensed under the Mulan Public License, Version 2 (Mulan PubL v2). See [LICENSE](https://license.coscl.org.cn/MulanPubL-2.0) for the full license text.
 
 ## Releases and Feedback
 
-* Releases: <https://github.com/Shuoh118/Auto-USB/releases/tag/main>
+* Releases: <https://github.com/Shuoh118/Auto-USB/releases>
 * Issues: <https://github.com/Shuoh118/Auto-USB/issues>
 
 ## Finally
