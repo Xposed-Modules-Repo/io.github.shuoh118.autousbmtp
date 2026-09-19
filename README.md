@@ -45,5 +45,5 @@ Xposed/LSPosed 模块：插线后自动把 USB 连接模式切到 MTP，不用�
 ## 最后
 * 如果你觉得本项目对你有用，请点上右上角的star，这是对我的最佳鼓励。
 * 最后感谢@https://github.com/TigerSpirit217
-* 本项目基于<https://github.com/TigerSpirit217/USBManager?tab=readme-ov-file>
+* 本项目基于https://github.com/TigerSpirit217/USBManager?tab=readme-ov-file
 * 修改而来 没有他就没有此项目
