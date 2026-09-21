@@ -7,7 +7,7 @@ Xposed/LSPosed 模块：插线后自动把 USB 连接模式切到 MTP，不用�
 ## 功能
 
 - 插入数据线后自动将 USB 模式切换为 MTP
-- Hook,`UsbDeviceManager`AdbService`，在 system_server 层生效
+- Hook UsbDeviceManager、AdbService，在 system_server 层生效
 
 ## 环境要求
 
@@ -17,10 +17,10 @@ Xposed/LSPosed 模块：插线后自动把 USB 连接模式切到 MTP，不用�
 
 ## 安装
 
-1. 从 [Releases](../../releases)  下载最新的 APK
+1. 从 Releases 下载最新的 APK
 2. 安装后打开 LSPosed 管理器
-3. 在模块列表中启用 **Auto USB MTP**
-4. 作用域勾选 **系统框架**（system）
+3. 在模块列表中启用 Auto USB MTP
+4. 作用域勾选 系统框架（system）
 5. 重启设备
 
 ## 配置
@@ -28,22 +28,26 @@ Xposed/LSPosed 模块：插线后自动把 USB 连接模式切到 MTP，不用�
 
 ## 更新日志
 
+### v2.0
+- 修复短时间内反复插拔数据线时无法识别的问题
+- 优化了 APK 体积
+
 ### v1.2
 - 优化 Hook 安装流程
 - 修复部分机型插线后模式未生效的问题
-
 
 ## 许可
 
 本项目使用木兰公共许可证，第 2 版（Mulan PubL v2）。完整授权见 [LICENSE](https://license.coscl.org.cn/MulanPubL-2.0)。
 
 ## 发布与反馈
-* 发布页面：<https://github.com/Xposed-Modules-Repo/io.github.shuoh118.autousbmtp/releases>
-* 其他发布页面：<https://github.com/Shuoh118/Auto-USB/releases>
-* 问题反馈：<https://github.com/Shuoh118/Auto-USB/issues>
+
+- 发布页面：https://github.com/Xposed-Modules-Repo/io.github.shuoh118.autousbmtp/releases
+- 其他发布页面：https://github.com/Shuoh118/Auto-USB/releases
+- 问题反馈：https://github.com/Shuoh118/Auto-USB/issues
 
 ## 最后
-* 如果你觉得本项目对你有用，请点上右上角的star，这是对我的最佳鼓励。
-* 最后感谢@https://github.com/TigerSpirit217
-* 本项目基于https://github.com/TigerSpirit217/USBManager?tab=readme-ov-file
-* 修改而来 没有他就没有此项目
+
+- 如果你觉得本项目对你有用，请点上右上角的 star，这是对我的最佳鼓励。
+- 最后感谢 @TigerSpirit217
+- 本项目基于 https://github.com/TigerSpirit217/USBManager 修改而来，没有他就没有此项目。

@@ -1,49 +1,53 @@
 # Auto USB MTP
 
-Xposed/LSPosed module: Automatically switches the USB connection mode to MTP after plugging in the cable, eliminating the need to manually pull down the notification bar and select it each time.
+An Xposed/LSPosed module: once the cable is plugged in, it automatically switches the USB connection mode to MTP, so you no longer have to pull down the notification shade and tap through it by hand every time.
 -----
 [中文](README.md)
 
-## Function
+## Features
 
-- Automatically switches from USB mode to MTP after the data cable is plugged in.
-- Hook,`UsbDeviceManager`AdbService`It takes effect at the system_server layer.
+- Automatically switches the USB mode to MTP once the data cable is plugged in
+- Hooks UsbDeviceManager and AdbService, taking effect at the system_server layer
 
-## Environmental requirements
+## Requirements
 
-- Android 12 and above (module minApiVersion / targetApiVersion = 102)
-- LSPosed (either Zygisk or Riru are acceptable)
-- Root access (KernelSU/Magisk are both acceptable)
+- Android 12 or later (module minApiVersion / targetApiVersion = 102)
+- LSPosed (Zygisk or Riru)
+- Root access (KernelSU or Magisk)
 
-## Install
+## Installation
 
-1. from [Releases](../../releases)  Download the latest APK
-2. After installation, open the LSPosed manager.
-3. Enable **Auto USB MTP** in the module list.
-4. Select **system framework** as the scope.
-5. Restart the device
+1. Download the latest APK from Releases
+2. Open the LSPosed manager after installing
+3. Enable Auto USB MTP in the module list
+4. Tick the System Framework (system) scope
+5. Reboot the device
 
 ## Configuration
-Changes are written immediately, and the new settings will take effect the next time the cable is plugged in.
+Changes are written immediately and take effect the next time the cable is plugged in.
 
-## Update Log
+## Changelog
+
+### v2.0
+- Fixed the issue where the cable was not detected when it was plugged and unplugged repeatedly within a short time
+- Reduced the APK size
 
 ### v1.2
-- Optimize Hook installation process
-- Fixed the issue where the mode did not work after plugging in the cable on some models.
+- Optimized the hook installation process
+- Fixed the issue where the mode did not take effect after plugging in on some devices
 
+## License
 
-## license
+This project uses the Mulan Public License, Version 2 (Mulan PubL v2). See [LICENSE](https://license.coscl.org.cn/MulanPubL-2.0) for the full text.
 
-This project uses the Mulan Public License, version 2. See the full license details below. [LICENSE](https://license.coscl.org.cn/MulanPubL-2.0)。
+## Releases and Feedback
 
-## Publish and Feedback
-* Release page: <https://github.com/Xposed-Modules-Repo/io.github.shuoh118.autousbmtp/releases>
-* Other release pages: <https://github.com/Shuoh118/Auto-USB/releases>
-* Issue feedback: <https://github.com/Shuoh118/Auto-USB/issues>
+- Release page: https://github.com/Xposed-Modules-Repo/io.github.shuoh118.autousbmtp/releases
+- Other release page: https://github.com/Shuoh118/Auto-USB/releases
+- Issue feedback: https://github.com/Shuoh118/Auto-USB/issues
 
-## at last
-* If you find this project helpful, please click the star icon in the upper right corner; it would be the best encouragement for me.
-* Finally, thank you to @https://github.com/TigerSpirit217
-* This project is based on https://github.com/TigerSpirit217/USBManager?tab=readme-ov-file
-* This was modified; without him, this project wouldn't exist.
+## Finally
+
+- If you find this project useful, please hit the star in the top right corner. It is the greatest encouragement for me.
+- Finally, thanks to @TigerSpirit217
+- This project was modified from https://github.com/TigerSpirit217/USBManager. Without him, this project would not exist.
