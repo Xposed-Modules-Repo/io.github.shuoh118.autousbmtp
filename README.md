@@ -2,7 +2,7 @@
 
 Xposed/LSPosed 模块：插线后自动把 USB 连接模式切到 MTP，不用每次手动下拉通知栏点选。
 -----
-[English](README_EN.md)
+[English](README.EN.md)
 
 ## 功能
 
@@ -17,7 +17,7 @@ Xposed/LSPosed 模块：插线后自动把 USB 连接模式切到 MTP，不用�
 
 ## 安装
 
-1. 从 Releases 下载最新的 APK
+1. 从 [Releases](../../releases) 下载最新的 APK
 2. 安装后打开 LSPosed 管理器
 3. 在模块列表中启用 Auto USB MTP
 4. 作用域勾选 系统框架（system）
@@ -27,6 +27,10 @@ Xposed/LSPosed 模块：插线后自动把 USB 连接模式切到 MTP，不用�
 改动立即写入，下次插线按新设置生效。
 
 ## 更新日志
+
+### v3.0 fix
+- 修复了一些已知问题
+- 优化了 APK 体积
 
 ### v2.0
 - 修复短时间内反复插拔数据线时无法识别的问题
@@ -42,9 +46,8 @@ Xposed/LSPosed 模块：插线后自动把 USB 连接模式切到 MTP，不用�
 
 ## 发布与反馈
 
-- 发布页面：https://github.com/Xposed-Modules-Repo/io.github.shuoh118.autousbmtp/releases
-- 其他发布页面：https://github.com/Shuoh118/Auto-USB/releases
-- 问题反馈：https://github.com/Shuoh118/Auto-USB/issues
+- 发布页面：<https://github.com/Shuoh118/Auto-USB/releases>
+- 问题反馈：<https://github.com/Shuoh118/Auto-USB/issues>
 
 ## 最后
 
