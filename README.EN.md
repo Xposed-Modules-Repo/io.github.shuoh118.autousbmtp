@@ -28,7 +28,7 @@ Changes take effect immediately and apply to subsequent cable connections.
 
 ## Changelog
 
-### v3.0 Fix  
+### v3.0 
 - Resolved several known issues  
 - Optimized APK size  
 
